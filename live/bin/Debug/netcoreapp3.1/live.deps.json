@@ -1,0 +1,174 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "live/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Selenium.WebDriver": "3.141.0",
+          "Selenium.WebDriver.ChromeDriver": "84.0.4147.3001",
+          "Titanium.Web.Proxy": "3.1.1301"
+        },
+        "runtime": {
+          "live.dll": {}
+        }
+      },
+      "BrotliSharpLib/0.3.3": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/BrotliSharpLib.dll": {
+            "assemblyVersion": "0.3.2.0",
+            "fileVersion": "0.3.3.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.8.5.2": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.5.0",
+            "fileVersion": "1.8.5.2"
+          }
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "3.141.0.0",
+            "fileVersion": "3.141.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/84.0.4147.3001": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {},
+      "Titanium.Web.Proxy/3.1.1301": {
+        "dependencies": {
+          "BrotliSharpLib": "0.3.3",
+          "Microsoft.Win32.Registry": "4.7.0",
+          "Portable.BouncyCastle": "1.8.5.2",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Titanium.Web.Proxy.dll": {
+            "assemblyVersion": "3.1.1301.0",
+            "fileVersion": "3.1.1301.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "live/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BrotliSharpLib/0.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/z74VNg6etlQK/N1mSD5Tz2qQUZqc3RMiuv2F8Q/MOfvg4l7a6lDYhQQTPd9s9saSokh1GqUD7JTuunOiQid8w==",
+      "path": "brotlisharplib/0.3.3",
+      "hashPath": "brotlisharplib.0.3.3.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.8.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iLfdr+T33QrDpsvcKRbMVk0PnjqE4hcrbgc6IH+A1BdPAThZlMB9s5TtFANhVVtdS+0oN3yIivgXRPRET7zuZw==",
+      "path": "portable.bouncycastle/1.8.5.2",
+      "hashPath": "portable.bouncycastle.1.8.5.2.nupkg.sha512"
+    },
+    "Selenium.WebDriver/3.141.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
+      "path": "selenium.webdriver/3.141.0",
+      "hashPath": "selenium.webdriver.3.141.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/84.0.4147.3001": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uNaEof82PiEqWKSRJNuejxxq427yIDMiEyyfi0BS3WbLRlLLtKfPV3MKVLc6VP6uWp167iOzyYy3LlQXSJ+71A==",
+      "path": "selenium.webdriver.chromedriver/84.0.4147.3001",
+      "hashPath": "selenium.webdriver.chromedriver.84.0.4147.3001.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "Titanium.Web.Proxy/3.1.1301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xwkN8pQbXrEGdD22mGLZL3b9nmmv4a/Kr4tY8x5ps+Kk5vRXMtuGtxX1vAmpj9mZFIlbEA/yJwBG+7gOMgu+Tg==",
+      "path": "titanium.web.proxy/3.1.1301",
+      "hashPath": "titanium.web.proxy.3.1.1301.nupkg.sha512"
+    }
+  }
+}
